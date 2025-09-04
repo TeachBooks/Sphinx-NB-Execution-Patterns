@@ -7,7 +7,7 @@ This section is useful for user type 4-5.
 {bdg-primary}`Sphinx Extension`
 ````
 
-# Sphinx extension: NoteBook Execution Patterns
+# NoteBook Execution Patterns
 
 ## Introduction
 
