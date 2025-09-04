@@ -1,3 +1,12 @@
+````{margin}
+```{admonition} User types
+:class: tip
+This section is useful for user type 4-5.
+```
++++
+{bdg-primary}`Sphinx Extension`
+````
+
 # Sphinx extension: NoteBook Execution Patterns
 
 ## Introduction
@@ -44,10 +53,11 @@ You can configure the extension in your `_config.yml` file. Here are the availab
 
 This extension will only have an effect if include patterns are provided.
 
-> [!NOTE]
-> Exclude patterns are supported by JupyterBook out-of-the-box. See the [JupyterBook documentation](https://jupyterbook.org/en/stable/content/execute.html#exclude-files-from-execution) for more details.
-> Sphinx also supports exclude patterns natively. See the [Sphinx documentation](https://myst-nb.readthedocs.io/en/latest/computation/execute.html#exclude-notebooks-from-execution) for more details.
-> If both the JupyterBook and Sphinx syntax are used, the Sphinx syntax will take precedence.
+::::{note}
+Exclude patterns are supported by JupyterBook out-of-the-box. See the [JupyterBook documentation](https://jupyterbook.org/en/stable/content/execute.html#exclude-files-from-execution) for more details.
+Sphinx also supports exclude patterns natively. See the [Sphinx documentation](https://myst-nb.readthedocs.io/en/latest/computation/execute.html#exclude-notebooks-from-execution) for more details.
+If both the JupyterBook and Sphinx syntax are used, the Sphinx syntax will take precedence.
+::::
 
 ### Example Configuration
 
