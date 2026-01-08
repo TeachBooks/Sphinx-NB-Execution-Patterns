@@ -2,7 +2,9 @@
 
 ## Introduction
 
-A Sphinx extension to execute Jupyter NoteBooks based on include and exclude patterns instead of only exclude patterns.
+A Sphinx extension to execute Jupyter NoteBooks (`*.ipynb`) and Text-based NoteBooks (`*.md`) based on include and exclude patterns instead of only exclude patterns.
+
+This extension also applies the `mystnb` patch from [JupyterBook-Patches](https://pypi.org/project/jupyterbook-patches/).
 
 ## Installation
 
